@@ -370,7 +370,7 @@ else{
 }
 
 
-define('WEBHOOK_URL', '');
+define('WEBHOOK_URL', 'https://app-a5ce9ce8-dc39-44e7-898b-c5e93b9de5b5.cleverapps.io/index.php');
 
 if (php_sapi_name() == 'cli') {
   // if run from console, set or delete webhook
