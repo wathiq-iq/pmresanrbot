@@ -182,9 +182,9 @@ Send your message.
         $phptext = file_get_contents('phptext.txt');
         $phptext = str_replace("**TOKEN**",$matches[1],$phptext);
         $phptext = str_replace("**ADMIN**",$chat_id,$phptext);
-        file_put_contents($id.'/pvresan.php',$phptext);
+        file_put_contents($id.'/wathiq.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$matches[1].'$texttwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$matches[1].'/setwebhook?url=https://pmresanrobot-pmresanrobot.rhcloud.com//'.$chat_id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$matches[1].'/setwebhook?url=https://app-a5ce9ce8-dc39-44e7-898b-c5e93b9de5b5.cleverapps.io/'.$chat_id.'/wathiq.php');
 apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "You have successfully updated robot 🚀 ♻️"));
 
 
@@ -222,9 +222,9 @@ Send your message.
         $phptext = file_get_contents('phptext.txt');
         $phptext = str_replace("**TOKEN**",$text,$phptext);
         $phptext = str_replace("**ADMIN**",$chat_id,$phptext);
-        file_put_contents($token.$id.'/pvresan.php',$phptext);
+        file_put_contents($token.$id.'/wathiq.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=https://pmresanrobot-pmresanrobot.rhcloud.com//'.$chat_id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$text.'/setwebhook?url=https://app-a5ce9ce8-dc39-44e7-898b-c5e93b9de5b5.cleverapps.io/'.$chat_id.'/wathiq.php');
     $unstalled = "You have successfully installed the robot Ast🚀
 Click to enter your robot 👇😃
 To give our robot rating 👇
@@ -305,9 +305,9 @@ apiRequest("sendMessage", array('chat_id' => $chat_id, "text" => "Pending 🔃")
         $phptext = file_get_contents('phptext.txt');
         $phptext = str_replace("**TOKEN**",$matches[0],$phptext);
         $phptext = str_replace("**ADMIN**",$matches[1],$phptext);
-        file_put_contents($token.$id.'/pvresan.php',$phptext);
+        file_put_contents($token.$id.'/wathiq.php',$phptext);
         file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=');
-        file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=https://pmresanrbot-amirrramh.rhcloud.com//'.$id.'/pvresan.php');
+        file_get_contents('https://api.telegram.org/bot'.$matches[0].'/setwebhook?url=https://app-a5ce9ce8-dc39-44e7-898b-c5e93b9de5b5.cleverapps.io/'.$id.'/wathiq.php');
     $unstalled = "You have successfully installed the robot Ast🚀
 Click to enter your robot 👇😃
 To give our robot rating 👇
